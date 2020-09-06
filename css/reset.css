@@ -1,0 +1,26 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+   display: table;
+}
+
+.img{
+  object-fit: contain;
+}
+:root {
+  --black: #333333;
+  --black-40: rgba(0, 0, 0, 0.4);
+  --jade-green: #27ad6c;
+  --warm-grey: #9b9b9b;
+  --dark-sage: #406b55;
+  --charcoal: #0f1110;
+  --white: #ffffff;
+}
+

@@ -1,0 +1,84 @@
+.header{
+  width: 100%;
+  min-width: 1440px;
+  /* height: 800px; */
+  /* background-color: blue; */
+  margin: 0 auto;
+  position: relative;
+}
+.Mask {
+  width:100%;
+  min-width: 1440px;
+  height:100%;
+  background-color: var(--dark-sage);
+}
+.bg-header {
+  width: 100%;
+  min-width: 1440px;
+  height: 60px;
+  /* background-color: var(--dark-sage); */
+  display: inline-block;
+  position: absolute;
+}
+.nav-bar{
+  width: 1320px;
+  height: 60px;
+  /* background-color: black; */
+  margin:0 auto;
+}
+.logo-frontend-ninja{
+  width: 121px;
+  height: 35px;
+  margin-top: 13px;
+  margin-bottom: 12px;
+  /* background-color: burlywood; */
+  float: left;
+}
+.nav{
+  float:right;
+  margin-top: 21px;
+  margin-bottom:20px;
+  
+}
+.header-inner{
+  width:922px;
+  height: 394px; 
+  /* background-color: chartreuse; */
+  position: absolute;
+  top: 65%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.frontend-ninja{
+  width: 100%;
+  height:96px;
+  /* background-color: darkblue; */
+}
+.about-ninjas{
+  width: 624px;
+  /* height: 84px; */
+  /* background-color: darkorchid; */
+  margin: 0 auto;
+  margin-top: 29px;
+}
+.readmore-btn{
+  width:192px;
+  height:67px;
+  /* background-color: darkred; */
+  margin: 0 auto;
+  margin-top:39px;
+  padding: 24px;
+}
+.apply{
+  width:120.5px;
+  /* background-color: darkslategrey; */
+  margin: 0 auto;
+}
+
+/* 1st section */
+.requirment{
+  width: 100%;
+  min-width: 1440px;
+  height: 1444px;
+  background-color: fuchsia;
+}
