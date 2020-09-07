@@ -1,9 +1,7 @@
 .header{
-  /* background-image: linear-gradient(to bottom,rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../img/img-hero-image.png');  */
   background-image: url('../img/img-hero-image.png');
   background-repeat: no-repeat;
   background-size: cover;
-  /* mix-blend-mode: multiply; */
   position: relative;
 }
 .mask{
@@ -17,9 +15,6 @@
   position: absolute;
   top: 51;
 }
-/* .nav-bar{
-  background-color: var(--charcoal);
-} */
 .nav ul{
  list-style: none;
 }
@@ -41,10 +36,10 @@
   color: var(--white);
 }
 
-ul li:nth-child(1) a{
+.nav ul li:nth-child(1) a{
   color: #70c919;
 }
-ul li:last-child{
+.nav ul li:last-child{
   width: 17px;
   height: 17px;
   object-fit: contain;
@@ -69,6 +64,8 @@ ul li:last-child{
   letter-spacing: normal;
   text-align: center;
   color: var(--white);
+  margin: 0 auto;
+  padding:10px;
 }
 .readmore-btn{
   border-radius: 4px;
@@ -96,4 +93,55 @@ ul li:last-child{
   float: right;
   opacity: 0.7;
 }
+
+
+
+
+/*section-1 */
+.title h2{
+  font-size: 48px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--warm-grey);
+}
+.requirement-img{
+  width: 100%; 
+  height: 196px;
+}
+.img-title{
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--jade-green);
+}
+.requirement-content p{
+  opacity: 0.78;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+  padding: 2px;
+}
+
+
+
+
+
+
+
+
+
 
