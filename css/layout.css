@@ -261,6 +261,9 @@
   margin-top: 30px;
   /* background-color: sienna; */
 }
+
+
+/* ic-separator */
 .ninja-icon{
   width:346px;
   /* height: 60px; */
@@ -294,5 +297,32 @@
 
 
 
-
+/* Section-3 */
+.food-photos{
+  width: 100%;
+  min-width: 1440px;
+  height: 930px;
+  margin-top: 111px;
+  /* background-color: chartreuse;  */
+}
+.photos-title{
+  width:577px;
+  height:55px;
+  margin: 0 auto;
+  /* background-color: yellow;  */
+}
+.title-extention{
+  width: 145px;
+  height: 20px;
+  margin: 0 auto;
+  /* background-color: darkblue; */
+}
+.random-photos{
+  width: 100%;
+  min-width: 1440px; 
+  height: 800px;
+  margin: 0 auto;
+  margin-top: 31px;
+  background-color: lightcoral;
+}
 

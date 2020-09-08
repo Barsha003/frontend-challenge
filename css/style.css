@@ -180,7 +180,7 @@
   color: var(--jade-green);
 }
 .all-resources a:hover{
-  color: red;
+  color:burlywood;
 }
 .all-resources a{
   text-decoration: none;
@@ -254,8 +254,50 @@
   color: var(--jade-green);
 }
  .all-updates a:hover{
-  color: red; 
+  color:burlywood; 
 }
+
+
+
+/* Section-3 */
+.photos-title h2{
+  font-size: 48px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--warm-grey);
+}
+.title-extention{
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--warm-grey);
+}
+.random-photos ul{
+  text-decoration: none;
+}
+.random-photos ul li{
+  display: inline-block;
+  /* width: 480px; */
+  width:33.3%;
+  height: 400px;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+.random-photos li:nth-child(3){
+  width:33.4%;
+}
+.random-photos li:nth-child(6){
+  width:33.4%;
+}
+
 
 
 
