@@ -149,7 +149,8 @@
   letter-spacing: normal;
   color: var(--warm-grey);
 }
-.designer-txt{
+.designer-txt a{
+  text-decoration: none;
   size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -158,7 +159,8 @@
   letter-spacing: normal;
   color: var(--jade-green);
 }
-.magazine-txt{
+.magazine-txt a{
+  text-decoration: none;
   size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -167,7 +169,8 @@
   letter-spacing: normal;
   color: var(--jade-green);
 }
-.front-txt{
+.front-txt a{
+  text-decoration: none;
   size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -176,7 +179,11 @@
   letter-spacing: normal;
   color: var(--jade-green);
 }
-.all-resources{
+.all-resources a:hover{
+  color: red;
+}
+.all-resources a{
+  text-decoration: none;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -185,8 +192,8 @@
   letter-spacing: normal;
   color: var(--jade-green);
 }
-
 /* .sec2-column2 */
+
 .update h2{
   font-size: 48px;
   font-weight: normal;
@@ -196,7 +203,8 @@
   letter-spacing: normal;
   color: var(--warm-grey);
 }
-.js-tip{
+.js-tip a{
+  text-decoration: none;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -215,7 +223,8 @@
   letter-spacing: normal;
   color: var(--warm-grey);
 }
-.dashboard{
+.dashboard a{
+  text-decoration: none;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -224,7 +233,8 @@
   letter-spacing: normal;
   color: var(--jade-green);
 }
-.jsrobot{
+.jsrobot a{
+  text-decoration: none;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -233,7 +243,8 @@
   letter-spacing: normal;
   color: var(--jade-green);
 }
-.all-updates{
+.all-updates a{
+  text-decoration: none;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -242,6 +253,10 @@
   letter-spacing: normal;
   color: var(--jade-green);
 }
+ .all-updates a:hover{
+  color: red; 
+}
+
 
 
 
