@@ -301,7 +301,7 @@
 .food-photos{
   width: 100%;
   min-width: 1440px;
-  height: 930px;
+  /* height: 930px; */
   margin-top: 111px;
   /* background-color: chartreuse;  */
 }
@@ -320,9 +320,160 @@
 .random-photos{
   width: 100%;
   min-width: 1440px; 
-  height: 800px;
+  /* height: 800px; */
   margin: 0 auto;
   margin-top: 31px;
-  background-color: lightcoral;
+  background-color: lightcoral; 
 }
+
+/* Section-4 */
+.we-provide{
+  width: 100%;
+  min-width: 1440px;
+  height: 1147px;
+  background-color: #423633;
+  padding: 1px;
+}
+.provide-title{
+  width:358px;
+  height: 96px;
+  margin: 0 auto;
+  margin-top: 144px;
+  /* background-color: tomato; */
+}
+.provide-details{
+  width: 1177px;
+  /* height: 600px; */
+  margin: 0 auto;
+  margin-top: 28px;
+  /* background-color:violet; */
+}
+.provide-colum1{
+  width: 708px;
+  /* height: 600px; */
+  /* background-color: yellow; */
+  float: left;
+}
+.provide-colum2{
+  width: 374px;
+  /* height: 600px; */
+  /* background-color: yellow; */
+  float: right;
+}
+.provide-col1{
+  width: 306px;
+  /* height: 600px; */
+  /* background-color: teal; */
+  float: left;
+}
+.feature1{
+  width:100%;
+  /* height: 132px; */
+  /* background-color:black; */
+}
+
+.ic-provideimg{
+  width: 60px;
+  height: 60px;
+  /* background-color: turquoise; */
+  float: left;
+}
+.col1-providetitle{
+  width: 230px;
+  /* height:26px; */
+  margin-left: 4px;
+  /* background-color: yellowgreen; */
+  float:right;
+}
+.col1-providetxt{
+  width: 240px;
+  /* height: 72px; */
+  margin-left:6px ;
+  margin-top:15px;
+  /* background-color: violet; */
+  float: right;
+}
+.feature2{
+  width:100%;
+  /* height: 132px; */
+  /* background:black; */
+  margin-top:74px ;
+
+}
+.feature3{
+  width: 100%;
+  /* height: 132px; */
+  /* background-color: black; */
+  margin-top: 80px;
+
+}
+
+
+/* provide-col2 css */
+.provide-col2{
+  width: 338px;
+  /* height: 600px; */
+  /* background-color: teal; */
+  float:right;
+}
+.col1-providetitle2{
+  width: 271px;
+  /* height:26px; */
+  margin-left: 5px;
+  /* background-color: yellowgreen; */
+  float:right;
+}
+.col1-providetxt2{
+  width: 240px;
+  /* height: 72px; */
+  margin-top:15px;
+  margin-right:32px; 
+  /* background-color: violet; */
+  float: right;
+}
+
+
+
+
+
+
+
+/* colum2-provide css */
+.colum2-providetitle{
+  width:305px;
+  height:26px;
+  margin-left: 4px;
+  /* background-color: yellowgreen; */
+  float:right;
+}
+.colum2-providetxt{
+  width: 240px;
+  height: 72px;
+  margin-top:15px;
+  margin-right:67px ;
+  /* background-color: violet; */
+  float: right;
+}
+
+.readmore-btn2{
+  width:192px;
+  /* height:67px; */
+  /* background-color: darkred; */
+  margin: 0 auto;
+  margin-top:131px;
+  padding: 24px;
+}
+.ninja-logo{
+  width: 51px;
+  height: 48px;
+  margin: 0 auto;
+  margin-top: 93px;
+  /* background-color: blue; */
+}
+
+
+
+
+
+
 
