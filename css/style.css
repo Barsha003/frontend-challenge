@@ -1,27 +1,44 @@
-.header{
-  background-image: url('../img/img-hero-image.png');
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #444444;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.header {
+  background-image: url("../img/img-hero-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
-.mask{
-  opacity:0.7;
+.mask {
+  opacity: 0.7;
   mix-blend-mode: multiply;
   background-color: var(--dark-sage);
 }
-.bg-header{
-  
-  background-color: rgba(15, 17, 16,0.1 );
+.bg-header {
+  padding: 0px 15px;
+  background-color: rgba(15, 17, 16, 0.1);
   position: absolute;
   top: 51;
 }
-.nav ul{
- list-style: none;
+.nav ul {
+  list-style: none;
 }
-.nav li{
+.nav li {
   display: inline-block;
 }
-.nav ul li a{
+.nav ul li a {
   text-decoration: none;
   margin: 20px;
   width: 44px;
@@ -36,7 +53,7 @@
   color: var(--white);
 }
 
-.nav ul li:nth-child(1) a{
+.nav ul li:nth-child(1) a {
   color: #70c919;
 }
 .nav ul li :last-child {
@@ -44,7 +61,7 @@
   height: 17px;
   object-fit: contain;
 }
-.frontend-ninja h2{
+.frontend-ninja h2 {
   font-size: 82px;
   font-weight: bold;
   font-stretch: normal;
@@ -54,7 +71,7 @@
   text-align: center;
   color: var(--white);
 }
-.about-ninjas p{
+.about-ninjas p {
   opacity: 0.7;
   font-size: 20px;
   font-weight: normal;
@@ -65,15 +82,15 @@
   text-align: center;
   color: var(--white);
   margin: 0 auto;
-  padding:10px;
+  padding: 10px;
 }
-.readmore-btn{
+.readmore-btn {
   border-radius: 4px;
   box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.9);
   background-color: var(--jade-green);
   cursor: pointer;
 }
-.apply a{
+.apply a {
   width: 88px;
   font-size: 16px;
   font-weight: normal;
@@ -86,7 +103,7 @@
   text-decoration: none;
   opacity: 0.7;
 }
-.apply img{
+.apply img {
   width: 18px;
   height: 18px;
   object-fit: contain;
@@ -94,11 +111,8 @@
   opacity: 0.7;
 }
 
-
-
-
 /*section-1 */
-.title h2{
+.title h2 {
   font-size: 48px;
   font-weight: normal;
   font-stretch: normal;
@@ -108,11 +122,11 @@
   text-align: center;
   color: var(--warm-grey);
 }
-.requirement-img{
-  width: 100%; 
+.requirement-img {
+  width: 100%;
   height: 196px;
 }
-.img-title{
+.img-title {
   font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
@@ -122,7 +136,7 @@
   text-align: center;
   color: var(--jade-green);
 }
-.requirement-content p{
+.requirement-content p {
   opacity: 0.78;
   font-family: Roboto;
   font-size: 14px;
@@ -136,11 +150,8 @@
   padding: 2px;
 }
 
-
-
-
 /* section-2 */
-.resources h2{
+.resources h2 {
   font-size: 48px;
   font-weight: normal;
   font-stretch: normal;
@@ -149,7 +160,7 @@
   letter-spacing: normal;
   color: var(--warm-grey);
 }
-.designer-txt a{
+.designer-txt a {
   text-decoration: none;
   size: 16px;
   font-weight: normal;
@@ -159,7 +170,7 @@
   letter-spacing: normal;
   color: var(--jade-green);
 }
-.magazine-txt a{
+.magazine-txt a {
   text-decoration: none;
   size: 16px;
   font-weight: normal;
@@ -169,7 +180,7 @@
   letter-spacing: normal;
   color: var(--jade-green);
 }
-.front-txt a{
+.front-txt a {
   text-decoration: none;
   size: 16px;
   font-weight: normal;
@@ -179,10 +190,10 @@
   letter-spacing: normal;
   color: var(--jade-green);
 }
-.all-resources a:hover{
-  color:burlywood;
+.all-resources a:hover {
+  color: burlywood;
 }
-.all-resources a{
+.all-resources a {
   text-decoration: none;
   font-size: 16px;
   font-weight: normal;
@@ -194,7 +205,7 @@
 }
 /* .sec2-column2 */
 
-.update h2{
+.update h2 {
   font-size: 48px;
   font-weight: normal;
   font-stretch: normal;
@@ -203,7 +214,7 @@
   letter-spacing: normal;
   color: var(--warm-grey);
 }
-.js-tip a{
+.js-tip a {
   text-decoration: none;
   font-size: 16px;
   font-weight: normal;
@@ -213,7 +224,7 @@
   letter-spacing: normal;
   color: var(--jade-green);
 }
-.date-time{
+.date-time {
   opacity: 0.5;
   font-size: 13px;
   font-weight: normal;
@@ -223,7 +234,7 @@
   letter-spacing: normal;
   color: var(--warm-grey);
 }
-.dashboard a{
+.dashboard a {
   text-decoration: none;
   font-size: 16px;
   font-weight: normal;
@@ -233,7 +244,7 @@
   letter-spacing: normal;
   color: var(--jade-green);
 }
-.jsrobot a{
+.jsrobot a {
   text-decoration: none;
   font-size: 16px;
   font-weight: normal;
@@ -243,7 +254,7 @@
   letter-spacing: normal;
   color: var(--jade-green);
 }
-.all-updates a{
+.all-updates a {
   text-decoration: none;
   font-size: 16px;
   font-weight: normal;
@@ -253,14 +264,12 @@
   letter-spacing: normal;
   color: var(--jade-green);
 }
- .all-updates a:hover{
-  color:burlywood; 
+.all-updates a:hover {
+  color: burlywood;
 }
-
-
 
 /* Section-3 */
-.photos-title h2{
+.photos-title h2 {
   font-size: 48px;
   font-weight: normal;
   font-stretch: normal;
@@ -270,7 +279,7 @@
   text-align: center;
   color: var(--warm-grey);
 }
-.title-extention{
+.title-extention {
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -280,27 +289,61 @@
   text-align: center;
   color: var(--warm-grey);
 }
-.random-photos ul{
-  text-decoration: none;
+
+.flex-layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;  
+  width: 100%;
 }
-.random-photos ul li{
+
+.flex-layout .block {
+  margin: 20px 15px;
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.flex-layout .block .ic-provideimg {
+  margin-right: 15px;
+}
+
+
+.flex-layout .block .block-wrapper{
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.random-photos ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.random-photos ul li {
   display: inline-block;
   /* width: 480px; */
-  width:33.3%;
+  width: 33.3%;
   height: 400px;
   margin: 0 auto;
   white-space: nowrap;
 }
-.random-photos li:nth-child(3){
-  width:33.4%;
+.random-photos li:nth-child(3) {
+  width: 33.4%;
 }
-.random-photos li:nth-child(6){
-  width:33.4%;
+.random-photos li:nth-child(6) {
+  width: 33.4%;
 }
-
 
 /* Section-4 */
-.provide-title h2{
+.provide-title h2 {
   font-size: 48px;
   font-weight: normal;
   font-stretch: normal;
@@ -311,7 +354,7 @@
   color: #ffffff;
 }
 
-.col1-providetitle h2{
+.col1-providetitle h2 {
   font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
@@ -320,7 +363,7 @@
   letter-spacing: normal;
   color: #ffffff;
 }
-.col1-providetxt{
+.col1-providetxt {
   opacity: 0.5;
   font-size: 16px;
   font-weight: normal;
@@ -331,7 +374,7 @@
   color: #ffffff;
   padding: 3px;
 }
-.col1-providetitle2 h2{
+.col1-providetitle2 h2 {
   font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
@@ -340,7 +383,7 @@
   letter-spacing: normal;
   color: #ffffff;
 }
-.col1-providetxt2{
+.col1-providetxt2 {
   opacity: 0.5;
   font-size: 16px;
   font-weight: normal;
@@ -351,12 +394,9 @@
   color: #ffffff;
   padding: 3px;
 }
-
-
-
 
 /* colum2-provide csss */
-.colum2-providetitle h2{
+.colum2-providetitle h2 {
   font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
@@ -365,7 +405,7 @@
   letter-spacing: normal;
   color: #ffffff;
 }
-.colum2-providetxt{
+.colum2-providetxt {
   opacity: 0.5;
   font-size: 16px;
   font-weight: normal;
@@ -375,19 +415,16 @@
   letter-spacing: normal;
   color: #ffffff;
   padding: 3px;
-
 }
-.readmore-btn2{
+.readmore-btn2 {
   border-radius: 4px;
   box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.9);
   background-color: var(--jade-green);
   cursor: pointer;
 }
 
-
-
 /* Footer */
-.copyright{
+.copyright {
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -396,13 +433,13 @@
   letter-spacing: normal;
   color: #ffffff;
 }
-.footer-menu ul{
-  list-style:none;
+.footer-menu ul {
+  list-style: none;
 }
-.footer-menu li{
+.footer-menu li {
   display: inline-block;
 }
-.footer-menu li a{
+.footer-menu li a {
   text-decoration: none;
   margin: 10px;
   font-size: 14px;
@@ -413,21 +450,3 @@
   letter-spacing: normal;
   color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
